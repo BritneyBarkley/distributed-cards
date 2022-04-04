@@ -13,7 +13,12 @@ body {
   color: #000;
   margin: 0;
   padding: 1rem;
+}
+
+main {
   display: flex;
+  gap: 1rem;
+  justify-content: space-between;
 }
 
 h1 h2 {
@@ -25,6 +30,8 @@ ol li {
   border: solid 2px #623b0c;
   border-radius: 8px;
   background-color: #ede3db;
+  padding: .5em .75em .6em;
+
 }
 
 li a {
@@ -38,4 +45,5 @@ li a {
 
 main ol {
   text-decoration: none;
+  width: 50%;
 }
