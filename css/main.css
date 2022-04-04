@@ -19,9 +19,6 @@ main {
   display: grid;
   gap: 1rem;
   grid-template-columns: 1fr 1fr;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 h1 h2 {
@@ -29,11 +26,20 @@ h1 h2 {
   color: #623b0c;
 }
 
+main ol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  width: 50%;
+}
+
 ol li {
   border: solid 2px #623b0c;
   border-radius: 8px;
   background-color: #ede3db;
   margin: 1.5rem;
+  font-family: Georgia;
 }
 
 li a {
@@ -43,11 +49,6 @@ li a {
   border-radius: 8px;
   text-decoration: none;
   padding: .5em .75em .6em;
-}
-
-main ol {
-  text-decoration: none;
-  width: 50%;
 }
 
 img {
