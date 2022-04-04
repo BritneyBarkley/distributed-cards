@@ -32,6 +32,7 @@ main ol {
   justify-content: center;
   text-decoration: none;
   width: 50%;
+  list-style-type: none;
 }
 
 ol li {
@@ -52,5 +53,5 @@ li a {
 }
 
 img {
-  width: 80%;
+  width: 100%;
 }
