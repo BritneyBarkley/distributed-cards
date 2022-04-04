@@ -24,14 +24,16 @@ h1 h2 {
 ol li {
   border: solid 2px #623b0c;
   border-radius: 8px;
+  background-color: #ede3db;
 }
 
 li a {
   background-color: #623b0c;
   color: #fff;
-  border: solid 2px #623b0c;
+  border: solid 2px solid #623b0c;
   border-radius: 8px;
   text-decoration: none;
+  margin: 1.5rem;
 }
 
 main ol {
