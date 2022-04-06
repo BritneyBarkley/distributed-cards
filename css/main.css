@@ -26,16 +26,13 @@ h1, h2 {
   color: #623b0c;
 }
 
-main ol {
+ol li {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-decoration: none;
   width: 50%;
   list-style-type: none;
-}
-
-ol li {
   border: solid 2px #623b0c;
   border-radius: 8px;
   background-color: #ede3db;
@@ -55,22 +52,23 @@ li a {
 img {
   width: 100%;
 }
- ol:nth-child(1) {
-   grid-column: 1 / 2;
-   grid-row: 1 / 2;
- }
 
- ol:nth-child(2) {
-   grid-column: 2 / -1;
-   grid-row: 1 / 2;
- }
+ol:nth-child(1) {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
 
- ol:nth-child(3) {
-   grid-column: 1 / 2;
-   grid-row: 2 / 3;
- }
+ol:nth-child(2) {
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
+}
 
- ol:nth-child(4) {
-   grid-column: 2 / -1;
-   grid-row: 2 / 3;
- }
+ol:nth-child(3) {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+ol:nth-child(4) {
+  grid-column: 2 / -1;
+  grid-row: 2 / 3;
+}
